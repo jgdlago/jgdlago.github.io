@@ -103,23 +103,33 @@ body {
 .content_experiencias * {
     background-color: #cfd5e1;
     color: #6c788e;
+    border-radius: 25px;
 }
 
 .content_experiencias {
     background-color: #cfd5e1;
     width: 100%;
-    height: 500px;
+    height: 600px;
     font-size: 26px;
+    border-radius: 25px;
+}
+
+.content_experiencias h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
 }
 
 .exp_1 {
     width: 48%;
     float: left;
     padding: 15px;
+    border-radius: 25px;
 }
 
 .exp_2 {
     width: 48%;
     float: right;
     padding: 15px;
+    border-radius: 25px;
 }

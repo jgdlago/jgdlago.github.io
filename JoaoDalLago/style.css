@@ -13,6 +13,16 @@ Paleta de cores
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
+/* Bem-Vindo */
+#bemVindo {
+    width: 100%;
+    height: 700px;
+    font-size: 100px;
+    text-align: center;
+    transition: all 0.7s ease-in-out 0.7s;
+}
+
+
 /* HEADER */
 .header *{
     background-color: #cfd5e1;
@@ -47,14 +57,6 @@ Paleta de cores
 .header ul li a:hover {
     text-shadow: 10px 5px 20px rgb(95, 107, 120);
     transition: all 0.1s ease-in-out 0.3s;
-}
-
-/* Bem-Vindo */
-.bemVindo {
-    width: 100%;
-    height: 1000px;
-    font-size: 100px;
-    text-align: center;
 }
 
 /* MAIS SOBRE */

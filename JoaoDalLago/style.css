@@ -10,7 +10,16 @@ Paleta de cores
 * {
     background-color: #6c788e;
     color: #fcfdff;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.mainContainer {
+    max-width: 100%;
 }
 
 /* Bem-Vindo */
@@ -72,6 +81,7 @@ Paleta de cores
     width: 300px;
     border-radius: 60px;
     float: left;
+    margin: 35px 10px 0px 10px;
 }
 
 .maisSobreText p {
@@ -83,7 +93,33 @@ Paleta de cores
     margin-left: 0px;
     text-align: left;
     width: 100%;
-    max-width: 1100px;
+    max-width: 900px;
     height: 300px;
     float: right;
+}
+
+/* EXPERIÊNCIAS */
+
+.content_experiencias * {
+    background-color: #cfd5e1;
+    color: #6c788e;
+}
+
+.content_experiencias {
+    background-color: #cfd5e1;
+    width: 100%;
+    height: 500px;
+    font-size: 26px;
+}
+
+.exp_1 {
+    width: 48%;
+    float: left;
+    padding: 15px;
+}
+
+.exp_2 {
+    width: 48%;
+    float: right;
+    padding: 15px;
 }

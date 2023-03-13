@@ -12,6 +12,10 @@ Paleta de cores
     max-width: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     color: #cfd5e1;
     background-color: #6c788e;
@@ -78,7 +82,7 @@ h2 {
 
 .content_maisSobre {
     width: 90%;
-    height: 600px;
+    height: 650px;
     margin: 90px 50px 0px 50px;
     padding: 0px 50px 0px 50px;
 }
@@ -239,6 +243,10 @@ h2 {
 #contato a {
     color: #6c788e;
     text-decoration: none;
+}
+
+#contato a:hover {
+    color: black;
 }
 
 #contato {

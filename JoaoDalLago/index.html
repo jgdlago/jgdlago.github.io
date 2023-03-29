@@ -1,151 +1,129 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>João Gabriel Dal Lago</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#presentation">Apresentação</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#MySkills">Conhecimentos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#MyExperiences">Experiências</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-<head>
-  <title>João Gabriel Dal Lago</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-</head>
+        <header class="py-5 bg-image-full" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/965345/pexels-photo-965345.jpeg')">
+            <div class="text-center my-5">
+                <img class="img-fluid rounded-circle mb-4" src="assets/images/perfil.jpeg" alt="..." />
+                <h1 class="text-white fs-3 fw-bolder" style="line-height: 0.5;">João Dal Lago</h1>
+                <p class="mb-0" style="color: #ec6349; font-weight: bold">Desenvolvedor web</p>
+            </div>
+        </header>
+        <!-- Content presentation-->
+        <section id="presentation" class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>< Bem-vindo! /></h2>
+                        <p>Olá, meu nome é João. Sou uma pessoa calma e tranquila, amo jogar videogames, frequentar a academia, ler e passar o tempo me atualizando sobre os novos assuntos da tecnologia.
+                            Tenho 23 anos e trabalho na área de TI há 4 anos. Sou natural de Passo Fundo, Rio Grande do Sul, mas já morei em várias outras localidades e sou flexível quanto à mudanças.
+                        </p>
+                        <p>
+                            Atualmente estou cursando Ciência da Computação na ATITUS, anteriormente conhecida como IMED, em Passo Fundo. Iniciei minha jornada nesta área estudando Gestão da Tecnologia da Informação em Itapiranga,
+                            Santa Catarina, onde morei por algum tempo.
+                        </p>
+                        <p>
+                            Apesar de não ter tido contato profissional com as tecnologias, em meu tempo livre já abordei temas de estudo como automação e IA com python, segurança e penTest no Kali, spring boot e angular
+                        </p>
+                        <p>
+                            Na minha carreira de desenvolvedor, já tive experiência em desenvolvimento tanto back-end quanto front-end, no geral em projetos de e-commerce. Busco sempre me atualizar e aprender coisas novas na área.
+                            Atualmente estou aberto a novas oportunidades para me desenvolver profissionalmente da melhor forma.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<body>
-
-  <div id="mainContainer">
-
-    <div class="header">
-      <ul>
-        <li><a href="#maisSobre">Mais sobre mim</a></li>
-        <li><a href="#exp">Experiências</a></li>
-        <li><a href="#conhecimentos">Conhecimentos</a></li>
-        <li><a href="#footerContatos">Contato</a></li>
-      </ul>
-    </div>
-
-    <div id="bemVindo">
-      <h1>
-        < Bem-vindo! />
-      </h1>
-    </div>
-
-    <div class="content_maisSobre">
-      <img src="assets/images/perfil.jpeg">
-      <div class="maisSobreText" id="maisSobre">
-        <p>
-          Olá, meu nome é João. Sou uma pessoa calma e tranquila, amo jogar videogames, frequentar a academia, ler e 
-          passar o tempo me atualizando sobre os novos assuntos da tecnologia. Tenho 23 anos e trabalho na área de TI há 4 anos. 
-          Sou natural de Passo Fundo, Rio Grande do Sul, mas já morei em várias outras localidades e sou flexível quanto à mudanças.
-        </p>
-        <p>
-          Atualmente estou cursando Ciência da Computação na ATITUS, anteriormente conhecida como IMED, em Passo Fundo. Iniciei minha 
-          jornada nesta área estudando Gestão da Tecnologia da Informação em Itapiranga, Santa Catarina, onde morei por algum tempo.
-        </p>
-        <p>
-          Apesar de não ter tido contato profissional com as tecnologias, em meu tempo livre já abordei temas de estudo como automação 
-          e IA com python, segurança e penTest no Kali, spring boot e angular.
-        </p>
-        <p>
-          Na minha carreira de desenvolvedor, já tive experiência em desenvolvimento tanto back-end quanto front-end, no geral em projetos 
-          de e-commerce. Busco sempre me atualizar e aprender coisas novas na área. Atualmente estou aberto a novas oportunidades para me 
-          desenvolver profissionalmente da melhor forma.
-        </p>
-      </div>
-    </div>
-
-    <div class="content_experiencias">
-      <h2>Experiências</h2>
-      <div id="exp" class="exp_1">
-        <h3>Compass UOL</h3>
-        <p>
-          Comecei minha jornada na Compass UOL em outubro de 2019 como desenvolvedor ATG.
-          Durante meu tempo lá, tive a oportunidade de trabalhar em vários projetos de e-commerce
-          de grandes clientes da empresa. Meu papel incluía desenvolver novas funcionalidades,
-          corrigir bugs e realizar análises de código.
-        </p>
-
-        <p>
-          Utilizei tecnologias como Java, JavaScript, SQL, CSS e JSP para desenvolvimento.
-          Embora o meu foco principal fosse o back-end, também tive a oportunidade de trabalhar
-          com front-end devido à natureza do ATG."
-        </p>
-      </div>
-      <div id="exp" class="exp_2">
-        <h3>UCEFF Premium Consultoria</h3>
-        <p>Como consultor júnior de TI na UCEFF Premium Consultoria, tive a oportunidade de aplicar
-          meus conhecimentos em tecnologia da informação. Minhas responsabilidades incluíam ajudar
-          no desenvolvimento de pequenos sites e trabalhar com marketing digital.
-        </p>
-
-        <p>
-          Durante meu tempo lá, utilizei tecnologias como PHP, JavaScript, Jquery, CSS, GIMP e Photoshop
-          para criar soluções personalizadas e eficientes para nossos clientes.
-        </p>
-      </div>
-
-    </div>
-
-    <div class="content_conhecimentos" id="conhecimentos">
-
-      <h2>Conhecimentos</h2>
-
-      <div class="htmlBar" id="bar">
-        <img class="icon" src="assets/icons/html.png">
-        <div class="container_bar">
-          <div class="progress-bar"></div>
+        <div id="MySkills" class="py-5 bg-image-full" style="background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(assets/images/pessoalFundo.jpeg)">
+            <div style="height: 20rem">
+                <div class="container my-5">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <h2>< Conhecimentos /></h2>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      
-      <div class="jsBar" id="bar">
-        <img class="icon" src="assets/icons/js.png">
-        <div class="container_bar">
-          <div class="progress-bar"></div>
-        </div>
-      </div>
+        <!-- Content MyExperiences-->
+        <section id="MyExperiences" class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>< Experiências /></h2>
+                        <p>Compass UOL</p>
+                        <p class="lead">Comecei minha jornada na Compass UOL em outubro de 2019 como desenvolvedor ATG. Durante meu tempo lá, tive a oportunidade de trabalhar em vários projetos de e-commerce de grandes clientes da empresa.
+                            Meu papel incluía desenvolver novas funcionalidades, corrigir bugs e realizar análises de código.
+                            Utilizei tecnologias como Java, JavaScript, SQL, CSS e JSP para desenvolvimento. Embora o meu foco principal fosse o back-end, também tive a oportunidade de trabalhar com front-end devido à natureza do ATG.
+                        </p>
+                        <hr>
+                        <p>UCEFF Premium Consultoria</p>
+                        <p class="lead">
+                            Como consultor júnior de TI na UCEFF Premium Consultoria, tive a oportunidade de aplicar meus conhecimentos em tecnologia da informação.
+                            Minhas responsabilidades incluíam ajudar no desenvolvimento de pequenos sites e trabalhar com marketing digital.
+                            Durante meu tempo lá, utilizei tecnologias como PHP, JavaScript, Jquery, Bootstrap, CSS, GIMP e Photoshop para criar soluções personalizadas e eficientes para nossos clientes.
+                        </p>
+                        <hr>
+                        <p>SEARA Alimentos</p>
+                        <p class="lead">
+                            Durante meu tempo na Seara Alimentos em Itapiranga, SC, tive como foco a gestão de pessoas, sendo responsável direto pelo acompanhamento do programa 5S,
+                            sendo em sua maioria através dos sistemas de gestão utilizados pela empresa mas também em parte acompanhando auditorias internas. Pude fortalecer tanto 
+                            minha habilidade em trabalhar com pessoas, resolução de problemas e tomada de decisões quanto organização e comunicação em prol da melhoria nos processos da empresa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      <div class="javaBar" id="bar">
-        <img class="icon" src="assets/icons/java.png">
-        <div class="container_bar">
-          <div class="progress-bar"></div>
-        </div>
-      </div>
+        <section id="contact" class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6" id="contactIcons">
+                        <h2>< Contato /></h2>
+                        <p class="lead">
+                            Será um prazer receber seu contato, fique a vontade!
+                        </p>
+                        <br>
+                        <p><img src="assets/icons/email.png">&nbsp&nbspjoaogabrieldallago@hotmail.com</p>
+                        <a target="_blank" href="https://instagram.com/joao_dallago?igshid=ZDdkNTZiNTM="><p><img src="assets/icons/instagram.png">&nbsp&nbsp@joao_dallago</p></a>
+                        <a target="_blank" href="https://wa.me/5554997089779"><p><img src="assets/icons/wpp.png">&nbsp&nbsp(54) 99708 9779</p></a>
+                        <a target="_blank" href="https://github.com/jgdlago"><p><img src="assets/icons/github.png">&nbsp&nbsphttps://github.com/jgdlago</p></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/joao-gabriel-dal-lago"><p><img src="assets/icons/linkedin.png">&nbsp&nbsphttps://www.linkedin.com/in/joao-gabriel-dal-lago/</p></a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Desenvolvido por mim :)</p></div>
+        </footer>
 
-      <div class="cssBar" id="bar">
-        <img class="icon" src="assets/icons/css.png">
-        <div class="container_bar">
-          <div class="progress-bar"></div>
-        </div>
-      </div>
-
-      <div class="sqlBar" id="bar">
-        <img class="icon" src="assets/icons/sql.png">
-        <div class="container_bar">
-          <div class="progress-bar"></div>
-        </div>
-      </div>
-
-    </div>
-
-  </div><!--fecha main container-->
-
-  <div class="footer" id="footerContatos">
-    <h2>Contato</h2>
-    <div class="contatoLeft" id="contato">
-      <p><img src="assets/icons/email.png">joaogabrieldallago@hotmail.com</p>
-      <a target="_blank" href="https://instagram.com/joao_dallago?igshid=ZDdkNTZiNTM="><p><img src="assets/icons/instagram.png">@joao_dallago</p></a>
-      <a target="_blank" href="https://wa.me/5554997089779"><p><img src="assets/icons/wpp.png">(54) 99708 9779</p></a>
-    </div>
-    <div class="contatoRight" id="contato">
-      <a target="_blank" href="https://github.com/jgdlago"><p><img src="assets/icons/github.png">https://github.com/jgdlago</p></a>
-      <a target="_blank" href="https://www.linkedin.com/in/joao-gabriel-dal-lago"><p><img src="assets/icons/linkedin.png">https://www.linkedin.com/in/joao-gabriel-dal-lago/</p></a>
-    </div>
-
-  </div>
-
-  </div>
-</body>
-<script src="controller.js"></script>
-<!--
-    Obrigado por chegar até aqui!
-    Espero que goste do que está vendo.
-  -->
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
 </html>

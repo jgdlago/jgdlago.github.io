@@ -4133,10 +4133,10 @@ textarea.form-control-lg {
 }
 
 .navbar-dark {
-  --bs-navbar-color: #6f1b2c;
-  --bs-navbar-hover-color: #ce2340;
-  --bs-navbar-disabled-color: #6f1b2c;
-  --bs-navbar-active-color: #ec6349;
+  --bs-navbar-color: #ce2340;
+  --bs-navbar-hover-color: #6f1b2c;
+  --bs-navbar-disabled-color: #ce2340;
+  --bs-navbar-active-color: #6f1b2c;
   --bs-navbar-brand-color: #fff;
   --bs-navbar-brand-hover-color: #fff;
   --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
@@ -10841,4 +10841,18 @@ textarea.form-control-lg {
 
 #contactIcons a:hover {
   color: #ec6349;
+}
+
+@media (min-width: 992px){
+  #skillsIcons img {
+    width: 120px;
+    margin: 30px;
+  }
+}
+
+@media (max-width: 992px){
+  #skillsIcons img {
+    width: 55px;
+    margin: 20px;
+  }
 }

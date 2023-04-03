@@ -10830,6 +10830,14 @@ textarea.form-control-lg {
   background-size: cover;
 }
 
+#contactIcons :not(p) img{
+  transition: transform .2s;
+}
+
+#contactIcons :not(p) img:hover {
+  transform: scale(1.2);
+}
+
 #contactIcons img {
   width: 50px;
 }
@@ -10843,10 +10851,12 @@ textarea.form-control-lg {
   color: #ec6349;
 }
 
-.voltarAoTopo img {
-  position: fixed;
-  z-index: 9999;
-  top: 90%;
+#skillsIcons img {
+  transition: transform .4s;
+}
+
+#skillsIcons img:hover {
+  transform: scale(1.5);
 }
 
 @media (min-width: 992px){
@@ -10870,5 +10880,29 @@ textarea.form-control-lg {
     width: 60px;
     left: 85%;
   }
+}
+
+.voltarAoTopo img {
+  position: fixed;
+  z-index: 9999;
+  top: 90%;
+  transition: transform .2s;
+}
+
+.voltarAoTopo img:hover {
+  transform: scale(1.1);
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #6f1b2c;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ce2340;
+  border-radius: 20px;
 }
 

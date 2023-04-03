@@ -10843,11 +10843,22 @@ textarea.form-control-lg {
   color: #ec6349;
 }
 
+.voltarAoTopo img {
+  position: fixed;
+  z-index: 9999;
+  top: 90%;
+}
+
 @media (min-width: 992px){
   #skillsIcons img {
     width: 120px;
     margin: 30px;
   }
+  .voltarAoTopo img {
+    width: 65px;
+    left: 90%;
+  }
+  
 }
 
 @media (max-width: 992px){
@@ -10855,4 +10866,9 @@ textarea.form-control-lg {
     width: 55px;
     margin: 20px;
   }
+  .voltarAoTopo img {
+    width: 60px;
+    left: 85%;
+  }
 }
+

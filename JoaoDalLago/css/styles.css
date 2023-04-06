@@ -10906,3 +10906,50 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
 }
 
+.myCurriculum {
+  text-align: center;
+}
+
+.myCurriculum a:hover{border-bottom: 1px solid #111;} 
+.myCurriculum h1{font-size: 2em; padding: 20px 0;}
+.myCurriculum p{
+  font-size: .75em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 20px 0;
+}
+
+.myCurriculum button:hover{cursor: pointer}
+.myCurriculum button {
+  background: #1C1C1C; 
+  outline: none;
+  position: relative;
+  border: 1.5px solid #ce2340;
+  border-radius: 15px;
+  padding: 15px 50px;
+  overflow: hidden;
+  color: #ce2340;
+  width: 100%;
+}
+
+.myCurriculum button:hover:before{opacity: 1; transform: translate(0,0);}
+.myCurriculum button:before{
+  content: attr(data-hover);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+  opacity: 0;
+  transform: translate(-100%,0);
+  transition: all .3s ease-in-out;
+}
+  
+.myCurriculum button:hover div{opacity: 0; transform: translate(100%,0)}
+.myCurriculum button div{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+  }

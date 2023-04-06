@@ -3639,6 +3639,14 @@ textarea.form-control-lg {
   cursor: default;
 }
 
+.nav-link {
+  transition: transform 0.2s;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
 .nav-tabs {
   --bs-nav-tabs-border-width: 1px;
   --bs-nav-tabs-border-color: #dee2e6;
@@ -10830,12 +10838,29 @@ textarea.form-control-lg {
   background-size: cover;
 }
 
-#contactIcons :not(p) img{
+#contactIcons {
+  display: grid;
+}
+
+@media (min-width: 400px) {
+  #contactIcons a {
+    width: 400px;
+  }
+}
+
+@media (max-width: 399px) {
+  #contactIcons a {
+    width: 300px;
+    margin-left: 10px;
+  }
+}
+
+#contactIcons a {
   transition: transform .2s;
 }
 
-#contactIcons :not(p) img:hover {
-  transform: scale(1.2);
+#contactIcons a:hover {
+  transform: scale(1.1);
 }
 
 #contactIcons img {
@@ -10845,6 +10870,7 @@ textarea.form-control-lg {
 #contactIcons a {
   text-decoration: none;
   color: #ce2340;
+  padding-bottom: 20px;
 }
 
 #contactIcons a:hover {
@@ -10866,7 +10892,6 @@ textarea.form-control-lg {
   }
   .voltarAoTopo img {
     width: 65px;
-    left: 90%;
   }
   
 }
@@ -10878,12 +10903,12 @@ textarea.form-control-lg {
   }
   .voltarAoTopo img {
     width: 60px;
-    left: 85%;
   }
 }
 
 .voltarAoTopo img {
   position: fixed;
+  right: 10px;
   z-index: 9999;
   top: 90%;
   transition: transform .2s;
